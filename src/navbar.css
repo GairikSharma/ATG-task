@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100%; */
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+}
+
+a {
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-inline {
+    position: relative;
+}
+
+.search_icon {
+    position: absolute;
+    font-size: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 2.5%;
+}
+
+.search-bar {
+    height: 42px;
+    border-radius: 21px;
+    width: 360px;
+    padding-left: 9.5%;
+}
+
+
+.top-right {
+    text-decoration: none;
+    color: black;
+}
+
+.logo_atg {
+    height: 24px;
+    width: 23.98px;
+}
+
+.create-account {
+    margin-left: 2%;
+}
+.crt-acc{
+    position: absolute;
+    right: 2.5rem;
+    top: 1.0em;
+}
+.create-account-modal {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.header-modal{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background-color: #EFFFF4;
+    text-align: center;
+    color: green;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-left: 4%;
+}
+.modal-content {
+    position: absolute;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    width: 736px;
+    height: 513px;
+    display: block;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 2rem;
+}

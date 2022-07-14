@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-card{
+    width: auto;
+    height: auto;
+}
+.card {
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+}
+.paragraph{
+    margin-left: 2.5%;
+}
+.card-title{
+    width: 150px;
+    height: 25px;
+    font-size: 18px;
+    padding-left: 5px;
+    margin-left: -2.5%;
+}
+.user{
+    margin-left: 2.9%;
+}
+.user-detail{
+    justify-content: flex-start;
+    align-items: center;
+}
+.threeDot{
+    width: 160px;
+    height: 102px;
+    background-color: lightgray;
+}
+
+.threedot-modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.edit-pen-icon{
+    display: none;
+}
+.threedot-modal-content {
+    /* position: absolute; */
+    margin: auto;
+    z-index: 1;
+    line-height: 1.4;
+    background-color: lightgray;
+    padding: 14px 28px;
+    border-radius: 3px;
+    width: 120px;
+    transform: translate(470px , -150px);
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .edit-pen-icon{
+    margin: auto;
+    display: block;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    color: white;
+    background-color: #FF5C5C;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+  }
+  .pen{
+    transform: translate(20px,15px);
+  }
+}
+
